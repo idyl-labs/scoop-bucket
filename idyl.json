@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0-rc.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/idyl-labs/cli/releases/download/v0.1.0-rc.1/idyl_0.1.0-rc.1_windows_amd64.zip",
+            "bin": [
+                "idyl.exe"
+            ],
+            "hash": "e5db18eb88fdebb85334063faecd0a64d9ae89d53ae97886c393ce0857e574d2"
+        }
+    },
+    "homepage": "https://idyl.network",
+    "license": "Apache-2.0",
+    "description": "CLI for the Idyl distributed computing platform"
+}

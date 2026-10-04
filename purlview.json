@@ -1,22 +1,23 @@
 {
-    "version": "0.2.1",
+    "version": "0.3.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.2.1/purlview_0.2.1_windows_amd64.zip",
+            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.3.1/purlview_0.3.1_windows_amd64.zip",
             "bin": [
                 "purlview.exe"
             ],
-            "hash": "59413121d5502597988082747e5623ac6cb2a5e45e1760a57b1e56f34b5e0041"
+            "hash": "ae350afe0bb051c61d40eb1043e5f769253102b5a0526214e5e106b5961ea23f"
         },
         "arm64": {
-            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.2.1/purlview_0.2.1_windows_arm64.zip",
+            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.3.1/purlview_0.3.1_windows_arm64.zip",
             "bin": [
                 "purlview.exe"
             ],
-            "hash": "eca4af64f86690c3bc9b24590730678aa58ccfb356c6c4a221becc2ed6bb85a9"
+            "hash": "8779a4354f3ccfbe5c2f2517a308a9cb3ced47ae2c34c95771cf955391a5abce"
         }
     },
-    "homepage": "https://github.com/idyl-labs/purlview",
+    "homepage": "https://purlview.com",
+    "license": "Apache-2.0",
     "description": "Share your running app and improve it together",
     "pre_install": [
         "$old = Join-Path (Split-Path $dir) \"current\\purlview.exe\"; if (Test-Path $old) { try { \u0026 $old daemon stop --maintenance --timeout 20s *\u003e $null } catch {} }"

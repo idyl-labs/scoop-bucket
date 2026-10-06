@@ -1,19 +1,19 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.4.0/purlview_0.4.0_windows_amd64.zip",
+            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.5.0/purlview_0.5.0_windows_amd64.zip",
             "bin": [
                 "purlview.exe"
             ],
-            "hash": "dbe9ff84a2c27314d5724d38e8894fd8770463341149ec9df27715f8d9e70b2d"
+            "hash": "2597b6777a32a409848745da7559382d63dabc5fa37c17c205ee56c457b4944e"
         },
         "arm64": {
-            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.4.0/purlview_0.4.0_windows_arm64.zip",
+            "url": "https://github.com/idyl-labs/purlview-releases/releases/download/v0.5.0/purlview_0.5.0_windows_arm64.zip",
             "bin": [
                 "purlview.exe"
             ],
-            "hash": "ee369ae6cb8193d0297e3b07ac6f8f2810aca7007f613b8613772163b69f35a2"
+            "hash": "afd3ffea0bdc2a0193ac53fb38c637331be6529ab03439e7cf8fa328d80889de"
         }
     },
     "homepage": "https://purlview.com",
